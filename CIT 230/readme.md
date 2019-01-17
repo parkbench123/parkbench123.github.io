@@ -1,6 +1,28 @@
 # parkbench123.github.io
-This is for CIT 230
-HTML ENtitity
+<!DOCTYPE html>
+<html lang="en-us">
 
-&copy;
-&star;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CIT 230 Assignment Portal | Parker Dance | BYU-Idaho</title>
+</head>
+
+<body>
+    <header>
+        <img src=" images/profile.jpg" alt="My Profile Picture">
+        <h1>Parker Dance</h1>
+    </header>
+    <main>
+        <h2> CIT 230 - Assignment Portal </h2>
+        <ul>
+            <li>Lesson ##: <a href="#">Assignment Label</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; Parker Dance USA <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+    </footer>
+</body>
+
+</html>
