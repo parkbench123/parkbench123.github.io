@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 32px;
+  font-size: 16px;
   line-height: 32px;
   font-family: 'Times New Roman', Times, serif ;
   color:black;
@@ -38,5 +38,5 @@ header img {
   float: right;
 }
 footer {
-  font-size: xx-large ;
+  font-size: 18px ;
 }
