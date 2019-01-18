@@ -11,10 +11,10 @@ body {
 }
 h1 {
   font-size: 32px;
-  color: navy;
+  color: black;
 }
 h2 {
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
   border-bottom: 1px solid #bbb;
 }
