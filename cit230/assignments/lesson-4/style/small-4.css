@@ -1,3 +1,13 @@
 ul{
-    list-style: none
+    list-style: none;
+}
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+div {
+    color: aquamarine;
+}
+.motto {
+    color: blanchedalmond;
+    font-size: 13pt;
 }
