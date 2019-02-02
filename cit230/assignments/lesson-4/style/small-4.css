@@ -44,4 +44,13 @@ ul{
   footer {
     font-size: 18px ;
   }
-  
+  main img {
+    width: 15pc;
+    height: 15pc;
+    float: right;
+  }
+  p img {
+    width: 15pc;
+    height: 15pc;
+    float: left;
+  }
