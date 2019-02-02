@@ -1,16 +1,47 @@
 ul{
     list-style: none;
 }
-nav {
-    font-family: 'Times New Roman', Times, serif;
-}
-div {
-    color: aquamarine;
-}
-.motto {
-    color: blanchedalmond;
-    font-size: 13pt;
-}
-header{
-    background-color: black
-}
+/* CIT 230 - Assignment Portal CSS Template */ /* You may use #HEX or color names */ /* * is a wildcard referring to all elements. */
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #000E2B;
+  }
+  h1 {
+    font-size: 30px;
+    color:black;
+  }
+  h2 {
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+  }
+  header,
+  main,
+  footer {
+    margin: 1.25rem auto;
+    padding: 0.5rem;
+    max-width: 100%;
+    background-color: #FEB75D;
+  }
+  header,
+  footer,
+  footer a {
+    text-align: center;
+    background-color: #013B63 ;
+    color: #55C9EA;
+  }
+  header img {
+    width: 15pc;
+    height: 15pc;
+    float: left;
+  }
+  footer {
+    font-size: 18px ;
+  }
+  
