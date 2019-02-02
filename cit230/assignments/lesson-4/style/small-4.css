@@ -47,10 +47,10 @@ ul{
   main img {
     width: 15pc;
     height: 15pc;
-    float: right;
+    float: Embed right;
   }
-  p img {
+  article img {
     width: 15pc;
     height: 15pc;
-    float: left;
+    float: embed left;
   }
