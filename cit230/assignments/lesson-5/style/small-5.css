@@ -126,7 +126,8 @@ main figure img {
 
 main div .current div i.wi.wi-day-sunny {
     font-size: 45px;
-    color: #FEB75D position: relative;
+    color: #FEB75D;
+    position: relative;
     top: 5px;
 }
 
@@ -175,7 +176,8 @@ footer {
 
 footer {
     margin: 0 auto;
-    color: #55C9EA height: 5em;
+    color: #55C9EA;
+    height: 5em;
     position: relative;
     width: 100%;
     margin-left: auto;

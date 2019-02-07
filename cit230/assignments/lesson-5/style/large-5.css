@@ -82,8 +82,6 @@
 
     main figure {
         margin: 0 0 .2rem 2%;
-        max-width: 40%;
-        background-repeat: 40%;
         background-size: contain;
         margin-right: 20px;
         float: right;
