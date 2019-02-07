@@ -1,92 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LetsPlayWetaher Site</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="normalize" href="style/normalize.css">
-    <link rel="stylesheet" href="style/small-4.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lets Play Weather</title>
+    <meta name="description" content="Weather in Preston">
+   
+    <link href="style/normalize.css" rel="stylesheet">
+    <link href="style/small-5.css" rel="stylesheet">
+    <link href="style/large-5.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="styles/weather-icons.min.css">
 
 </head>
 
 <body>
     <header>
-        <img src="images/logocompany.jpg" alt="Company Logo">
-        <h1>Lets Play Weather</h1>
-        <div class="motto">We Want to Help You Feel Under the Weather</div>
+        <h1><img src="images/logocompany.jpg" alt="The site logo" width="75" height="75">
+        Lets Play Weather</h1>
+        <div class="subheading">We Want to Help You Feel Under the Weather</div>
+        <div id="hamburger">
+            <button onclick="toggleNavMenu()">&#9776;</button>
+        </div>
+        <!-- site navigation use placeholder references -->
         <nav>
-            <ul>
-                <li>&#9776; Home</li>
-                <li>Preston</li>
-                <li>Soda Springs</li>
-                <li>Fish Haven</li>
-                <li>Storm Center</li>
-                <li>Gallery</li>
+            <ul id="nav" class="nav">
+                <li>
+                    Home
+                </li>
+                <li>
+                    Preston
+                </li>
+                <li>
+                    Soda Springs
+                </li>
+                <li>
+                    Fish Haven
+                </li>
+                <li>
+                    Storm Cente
+                </li>
+                <li>
+                    Gallery
+                </li>
             </ul>
         </nav>
-
     </header>
-
-    <h2>
-        Preston
-    </h2>
-
-
-    <h3>
-        Weather Summary
-    </h3>
-    <img src="images/superman.jpg" alt="Hero Image">
-    <p>
-        For the next several days the weather will be great!
-    </p>
-
-
     <main>
-        <h3>
-            5 Day Forecast
-        </h3>
-        <p>
-            Here is the Following 5 Day Forecast:
-        </p>
+        <div id="cityWeather">
+            <h2>Preston </h2>
+            <figure>
+                <img id="super-img" src="images/superman.jpg" alt="superhero">
+            </figure>
+            <section id="weather-data">
+                <h3 id="summary">Weather Summary</h3>
+              
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                                            </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>29&#8451;</td>
+                        <td>27&#8451;</td>
+                        <td>28&#8451;</td>
+                        <td>25&#8451;</td>
+                        <td>22&#8451;</td>
+                                            </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <h3>
-            Fun Facts of the Town
-        </h3>
-        <img src="images/dynamite_PNG15.png" alt="Napoleon Dynamite">
-        <p>
-            Many do not know about the small town of Preston, Idaho.
+        <article>
+            <h3>Fun Facts of the Town</h3>
+            <img id="article-img" src="images/dynamite_PNG15.png" alt="dynamite">
+            <p class="town-article">
+                Many do not know about the small town of Preston, Idaho.
             It is relatively quiet and a small farming community.
             With the small quiet area of Preston, Idaho, what it is known for is this is the town where they filmed
             the movie "Napoleon Dynamite".
             You can see many of the actual buildings and the school where these shots were taken.
             We encourage you to go take a look!
-        </p>
+            </p>
+            </article>
 
+        <section>
+            Contact Info:
+            Name, Email, Location, Addresss
+            <img id="map-img" src="images/locationpreston.png" alt="location">
+        </section>
 
     </main>
-
-    <article>
-        <h4>
-            Contact Info
-        </h4>
-        <img src="images/locationpreston.png" alt="Map of Location">
-        <ul>
-            <li>Phone Number</li>
-            <li>Location</li>
-            <li>Email</li>
-            <li>addresses</li>
-        </ul>
-
-
-    </article>
-
-
+    
     <footer>
-        <p> &copy; 2019 | The Weather Site | Parker Dance</p>
+               <p class="footer-bar">&copy;2019 All Rights | Weather Site | Parker
     </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
 
 </body>
 
