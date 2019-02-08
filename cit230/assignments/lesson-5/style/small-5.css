@@ -101,6 +101,12 @@ li {}
 main {
     text-align: center;
 }
+.active{
+     background-color: orange;
+}
+ <li :hover>{
+
+}
 
 main h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -154,6 +160,7 @@ p.town-article {
 #article {
     padding-bottom: 20px;
     padding-top: 1px;
+    max-width: 500px ;
 }
 #map-img {
     width: 10%;
