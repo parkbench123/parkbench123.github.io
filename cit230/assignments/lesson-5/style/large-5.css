@@ -28,6 +28,27 @@
         color: orange;
     }
 
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #24406f;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgrey;
+        max-width: 50em;
+    }
+
     main figure {
         margin: 0 0 .2rem 2%;
         width: 70%;
@@ -37,14 +58,7 @@
         display: inline-block;
     }
 
-    nav ul {
-        list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
-        background-color: lightgrey;
-        max-width: 50em;
-    }
+    
 
     header {
         text-align: center;
@@ -65,17 +79,7 @@
         width: 60%;
     }
 
-    nav ul li {
-        float: left;
-    }
-
-    nav ul li a {
-        display: block;
-        color: #24406f;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+    
     
     .current, .highlow, .conditions {
         font-size: 20px;
