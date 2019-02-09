@@ -8,13 +8,23 @@
         float: left;
         list-style: none;
         text-align: center;
-        width: 16.6667%;
         width: 20%;
+        width: calc(100%/6);
         box-sizing: border-box;
+    }
+
+    li a {
+        display: block;
+        width: 40px;
     }
     li {
         display: block;
         white-space: nowrap;
+        border-right: 1px solid #bbb;
+    }
+
+    li:last-child {
+        border-right: none;
     }
     #hamburger {
         display: none;
@@ -26,6 +36,15 @@
 
     nav ul li a:hover {
         color: orange;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgrey;
+        max-width: 100%;
     }
 
     nav ul li {
@@ -40,14 +59,6 @@
         text-decoration: none;
     }
 
-    nav ul {
-        list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
-        background-color: lightgrey;
-        max-width: 50em;
-    }
 
     main figure {
         margin: 0 0 .2rem 2%;
