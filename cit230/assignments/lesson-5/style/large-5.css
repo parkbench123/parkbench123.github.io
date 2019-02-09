@@ -1,14 +1,9 @@
-@media only screen and (min-width: 37.5em) {
-    
+@media only screen and (min-width: 37.6em) {
+
     nav button {
         display: none;
     }
   
-    article p.town-article img {
-        width: 62.666%;
-        float: right;
-    }
-
     nav ul li {
         float: left;
         list-style: none;
@@ -25,15 +20,6 @@
         display: none;
     }
 
-    main figure img {
-        margin: 0 0 .2rem 2%;
-        width: 65%;
-    }
-
-    article p.town-article img {
-      
-    }
-
     nav ul li.active a {
         color: green;
     }
@@ -42,40 +28,13 @@
         color: orange;
     }
 
-    main {}
-
-    main h2 {}
-
     main figure {
         margin: 0 0 .2rem 2%;
-        width: 96%;
-    }
-
-    main figure {
-        margin: 0 0 .2rem 2%;
-        width: 60%;
+        width: 70%;
         float: right;
     }
     main div {
         display: inline-block;
-    }
-
-    #article {
-        padding-bottom: 30px;
-    }
-      footer {
-        margin: 0 auto;
-        color: #707070;
-        height: 5em;
-        position: relative;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        top: 40px;
-    }
-    article p.town-article img {
-        width: 30%;
     }
 
     nav ul {
@@ -104,7 +63,6 @@
 
     main figure img {
         width: 60%;
-
     }
 
     nav ul li {
@@ -124,15 +82,11 @@
         margin-top: 40px;
     }
 
-   
     #weather-data {
         position: relative;
         width: 100%;
     }
-    
-    main h2 {}
 
-   
     section.forecast {
         display: block;
         padding-top: 1px;
@@ -165,18 +119,19 @@
         position: relative;
         left: 50px;
     }
+
+    #article {
+        padding-bottom: 30px;
+    }
+    
     #article-img {
-        width: 30%;
-        background-repeat: no-repeat;
         background-size: contain;
         padding-right: 60px;
         float: right;
-        width: 30%;
+        width: 20%;
         margin-left: 30px;
     }
-    article p.town-article img {
-        float: embed left;
-    }
+   
     p.town-article {
         margin-left: 40px;
         text-align: justify;
@@ -201,5 +156,5 @@
         text-align: center;
         top: 40px;
     }
-    
+        
 }

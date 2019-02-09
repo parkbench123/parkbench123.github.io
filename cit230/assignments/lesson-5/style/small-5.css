@@ -1,8 +1,6 @@
 @media only screen and (max-width: 37.5em) {
 * {
     box-sizing: border-box;
-
-    transition: all 0.5s ease-out;
 }
 
 body {
@@ -102,7 +100,8 @@ main h2 {
 
 main figure {
     margin: 0 0 .2rem 2%;
-    width: 96%;
+    width: 50%;
+    float: right;
 }
 
 section.forecast {
@@ -129,9 +128,10 @@ div#cityWeather {
 }
 
 #article-img {
-    width: 80%;
+    width: 30%;
     background-repeat: no-repeat;
     background-size: contain;
+    float: left
 }
 
 p.town-article {
