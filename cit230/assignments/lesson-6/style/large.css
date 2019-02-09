@@ -1,0 +1,205 @@
+@media only screen and (min-width: 37.5em) {
+    nav button {
+        display: none;
+    }
+  
+    article p.town-article img {
+        width: 62.666%;
+        float: right;
+    }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        text-align: center;
+        width: 16.6667%;
+        width: calc(100% / 6);
+        box-sizing: border-box;
+    }
+    li {
+        display: block;
+        white-space: nowrap;
+    }
+    #hamburger {
+        display: none;
+    }
+
+    main figure img {
+        margin: 0 0 .2rem 2%;
+        width: 65%;
+    }
+
+    article p.town-article img {
+      
+    }
+
+    nav ul li.active a {
+        color: green;
+    }
+
+    nav ul li a:hover {
+        color: orange;
+    }
+
+    main {}
+
+    main h2 {}
+
+    main figure {
+        margin: 0 0 .2rem 2%;
+        width: 96%;
+    }
+
+    main figure {
+        margin: 0 0 .2rem 2%;
+        width: 60%;
+        float: right;
+    }
+    main div {
+        display: inline-block;
+    }
+
+    #article {
+        padding-bottom: 30px;
+    }
+      footer {
+        margin: 0 auto;
+        color: #707070;
+        height: 5em;
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        top: 40px;
+    }
+    article p.town-article img {
+        width: 30%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgrey;
+        max-width: 50em;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+        background: cadetblue;
+    }
+
+    Body{
+        background-color: lightskyblue;
+    }
+
+    main{
+        text-align: center;
+    }
+
+    main figure img {
+        width: 60%;
+
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #24406f;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .current, .highlow, .conditions {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+   
+    #weather-data {
+        position: relative;
+        width: 100%;
+    }
+    
+    main h2 {}
+
+   
+    section.forecast {
+        display: block;
+        padding-top: 1px;
+        background: cadetblue;
+
+    }
+    table {
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+    }
+    th, td {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 20px;
+    }
+    main div .current div i.wi.wi-day-sunny {
+        display: table-caption;
+        position: relative;
+        left: 3.8em;
+        top: -65px;
+        padding: 24.3px;
+        font-size: 50px;
+    }
+    #summary {
+        padding-bottom: 40px;
+        position: relative;
+        left: 50px;
+    }
+    #article-img {
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-right: 60px;
+        float: right;
+        width: 30%;
+        margin-left: 30px;
+    }
+    article p.town-article img {
+        float: embed left;
+    }
+    p.town-article {
+        margin-left: 40px;
+        text-align: justify;
+        position: relative;
+        top: 40px;
+    }
+
+    article {
+        padding-bottom: 150px;
+        padding-top: 1px;
+        background: lightgray;
+    }
+
+    footer {
+        margin: 0 auto;
+        color: #707070;
+        height: 5em;
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        top: 40px;
+    }
+    
+}
+}
