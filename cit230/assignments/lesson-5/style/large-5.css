@@ -1,4 +1,5 @@
 @media only screen and (min-width: 37.5em) {
+    
     nav button {
         display: none;
     }
@@ -29,6 +30,10 @@
         width: 65%;
     }
 
+    article p.town-article img {
+      
+    }
+
     nav ul li.active a {
         color: green;
     }
@@ -36,6 +41,10 @@
     nav ul li a:hover {
         color: orange;
     }
+
+    main {}
+
+    main h2 {}
 
     main figure {
         margin: 0 0 .2rem 2%;
@@ -115,11 +124,15 @@
         margin-top: 40px;
     }
 
+   
     #weather-data {
         position: relative;
         width: 100%;
     }
+    
+    main h2 {}
 
+   
     section.forecast {
         display: block;
         padding-top: 1px;
