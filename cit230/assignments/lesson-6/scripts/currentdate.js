@@ -20,15 +20,32 @@
 
 
     //Month
-
+    var Month = new Array(7);
+    weekday[0] = "January";
+    weekday[1] = "February";
+    weekday[2] = "March";
+    weekday[3] = "April";
+    weekday[4] = "May";
+    weekday[5] = "June";
+    weekday[6] = "July";
+    weekday[7] = "August";
+    weekday[8] = "September";
+    weekday[9] = "October";
+    weekday[10] = "November";
+    weekday[11] = "December";
+    
+    var monthName = month[today.getMonth()];
 
 
 
     //day of Month
 
+    var fullDate = weekday +', '+ today.getDate + ', '+ monthName +', 'fullYear
+
 
 
     var date = new Date();
 
+    document.getElementById('copyright-year').innerHTML = date.getFullYear();
     document.getElementById('copyright-year').innerHTML = date.getFullYear();
     
