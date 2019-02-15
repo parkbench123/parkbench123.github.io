@@ -20,7 +20,7 @@
 
 
     //Month
-    var Month = new Array(7);
+    var Month = new Array(11);
     weekday[0] = "January";
     weekday[1] = "February";
     weekday[2] = "March";
@@ -42,10 +42,10 @@
 
     var fullDate = dayOfWeek +', '+ today.getDate() + ' '+ monthName +', '+ fullYear;
 
-
+    document.getElementById('currentYear').innerHTML = date.fullDate();
 
     var date = new Date();
 
     document.getElementById('copyright-year').innerHTML = date.getFullYear();
-    document.getElementById('currentYear').innerHTML = date.fullDate();
+    
     
