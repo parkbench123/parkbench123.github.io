@@ -40,12 +40,12 @@
 
     //day of Month
 
-    var fullDate = weekday +', '+ today.getDate + ', '+ monthName +', 'fullYear
+    var fullDate = dayOfWeek +', '+ today.getDate + ', '+ monthName +', '+ fullYear;
 
 
 
     var date = new Date();
 
     document.getElementById('copyright-year').innerHTML = date.getFullYear();
-    document.getElementById('copyright-year').innerHTML = date.getFullYear();
+    document.getElementById('currentYear').innerHTML = date.fullDate();
     
