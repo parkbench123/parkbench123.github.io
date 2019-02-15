@@ -40,7 +40,7 @@
 
     //day of Month
 
-    var fullDate = dayOfWeek +', '+ today.getDate + ', '+ monthName +', '+ fullYear;
+    var fullDate = dayOfWeek +', '+ today.getDate() + ' '+ monthName +', '+ fullYear;
 
 
 
