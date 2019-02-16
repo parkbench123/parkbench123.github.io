@@ -1,6 +1,9 @@
 @media only screen and (max-width: 37.5em) {
 * {
     box-sizing: border-box;
+    transition: all 0.5s ease-out;
+}
+
 }
 
 body {
@@ -77,6 +80,10 @@ nav a {
     font-size: 17px;
 }
 
+.navHamb {
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -117,9 +124,7 @@ main figure img {
     width: 100%;
 }
 
-.navHamb {
-    display: block;
-}
+
 
 main div .current div i.wi.wi-day-sunny {
     font-size: 45px;
