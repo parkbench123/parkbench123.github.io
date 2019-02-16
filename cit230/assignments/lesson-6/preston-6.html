@@ -17,19 +17,23 @@
 
 <body>
     <header>
-        <h1><img src="images/logocompany.jpg" alt="The site logo" width="75" height="75">Local Forecast</h1>
+        <h1><img src="images/logocompany.jpg" alt="The site logo" 
+            srcset="
+            images/logocompany.jpg 400w,
+            images/logocompany.jpg 800w">Local Forecast</h1>
         <div class="subheading">Lets Get You Out in the weather</div>
         <div id="hamburger">
             <button onclick="toggleNavMenu()">&#9776;</button>
         </div>
         <!-- site navigation use placeholder references -->
         <nav>
-            <ul id="nav" class="nav">
+            <ul id="nav" class="nav navHamb">
                 <li>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Preston</a>
+                   <li class= "active">
+                    <a href="preston-6.html">Preston</a>
                 </li>
                 <li>
                     <a href="#">Soda Springs</a>
@@ -50,10 +54,10 @@
         <div id="cityWeather">
             <h2>Preston</h2>
             <figure>
-                <img src="images/smallheropic.jpg" alt="Photo of Preston, ID">
-                 <srcset ="
-                   images/smallheropic 400w,
-                   images/largeheropic 800w">           
+                <img src="images/smallheropic.jpg" alt="Photo of Preston, ID"
+                 srcset ="
+                   images/smallheropic.jpg 400w,
+                   images/largeheropic.jpg 800w">           
             </figure>
             <section id="weather-data">
                 <h3 id="summary">Weather Summary</h3>
@@ -99,7 +103,10 @@
 
         <article>
             <h3>Fun Facts: Did you Know?</h3>
-            <img id="article-img" src="images/NapoleonDynamite.jpg" alt="Dynamite">
+            <img id="article-img" src="images/NapoleonDynamite.jpg" alt="Dynamite"
+            srcset="
+            images/NapoleonDynamite.jpg 400w,
+            images/NapoleonDynamite.jpg 800w">
             <p class="town-article">
                 Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small farming community. With the small quiet area of Preston, Idaho, what it is known for is this is the town where they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the school where these shots were taken. We encourage you to go take a look!
             </p>
@@ -115,7 +122,7 @@
             Email:emailmeplease@email.com
             </span>
         </aside>
-        <p class="footer-bar">&copy; <span id='copyright-year'></span> Lets Play Weather | Local Forecast | <span id='currentYear'></span>
+        <p class="footer-bar"> &copy;2019 Lets Play Weather | Local Forecast | <span id='currentdate'></span>
 
         </p>
     </footer>
