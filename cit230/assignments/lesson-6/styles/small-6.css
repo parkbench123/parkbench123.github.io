@@ -16,6 +16,10 @@ p {
     width: 98%;
 }
 
+img{
+    pointer-events: none;
+}
+
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -114,7 +118,7 @@ main figure img {
 }
 
 .navHamb {
-    display: none;
+    display: block;
 }
 
 main div .current div i.wi.wi-day-sunny {

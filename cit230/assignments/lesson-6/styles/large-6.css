@@ -4,6 +4,15 @@
         display: none;
     }
   
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightslategray;
+        max-width: 100%;
+    }
+
     nav ul li {
         float: left;
         list-style: none;
@@ -30,7 +39,7 @@
         display: none;
     }
 
-    .navHamburger{
+    .navHamb {
         display: block;
     }
 
@@ -108,12 +117,14 @@
         background: cadetblue;
 
     }
+
     table {
         white-space: nowrap;
         margin-left: auto;
         margin-right: auto;
         color: black;
     }
+    
     th, td {
         margin-left: auto;
         margin-right: auto;
