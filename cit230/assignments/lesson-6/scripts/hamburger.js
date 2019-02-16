@@ -1,5 +1,5 @@
 //todo: expand and colapse the menu
-
-toggleMenu(){
-    document.getElementById("Nav").classList.toggle("hide");
-}
+function toggleNavMenu(){
+    var nav = document.getElementById('nav');
+     nav.classList.toggle("navHamburger");
+ }

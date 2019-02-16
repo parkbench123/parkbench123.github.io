@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .navHamburger{
+        display: block;
+    }
+
     nav ul li.active a {
         color: green;
     }

@@ -42,7 +42,7 @@ header img {
 
 header .subheading {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5ex;
+    font-size: 5em;
 }
 
 #hamburger {
@@ -87,7 +87,7 @@ nav ul li a:hover {
     color: darkcyan;
 }
 
-nav ul li a:active {
+nav ul li.active a{
     color: darkolivegreen;
 }
 
