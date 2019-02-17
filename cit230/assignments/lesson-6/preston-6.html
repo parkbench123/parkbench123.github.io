@@ -10,30 +10,33 @@
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small-6.css" rel="stylesheet">
     <link href="styles/large-6.css" rel="stylesheet">
-    
-    
+
+
 
 </head>
 
 <body>
-    <header>
-        <h1><img src="images/logoOriginal.png" alt="The site logo" 
-            srcset="
-                    images/lgoCompSm.png 37.5em,
-                    images/logoCompSm.png 37.6em">
-                    Local Forecast</h1>
+    <header class-"clearfix">
+        <figure class="logo">
+            <img src="images/logoOriginal.png" width="20%" height="20%" alt="The site logo" 
+                srcset="images/logoCompSm.png 37.5em,
+                        images/logoCompSm.png 37.6em">
+        </figure>
+        <h1>
+            Local Forecast
+        </h1>
         <div class="subheading">Lets Get You Out in the weather</div>
         <div id="hamburger">
             <button onclick="toggleNavMenu()">&#9776;</button>
         </div>
-        
+
         <nav>
             <ul id="nav" class="nav navHamb">
                 <li>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                   <li class= "active">
+                <li class="active">
                     <a href="preston-6.html">Preston</a>
                 </li>
                 <li>
@@ -51,14 +54,14 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div id="cityWeather">
             <h2>Preston</h2>
             <figure>
-                <img src="images/heroOriginal.jpeg" alt="Photo of Preston, ID"
-                 srcset ="
-                   images/heroLrg.png 37.5em,
-                   images/heroSm.jpg 37.6em">           
+                <img src="images/heroOriginal.jpeg" alt="Photo of Preston, ID" srcset="
+                   images/herosmall.png 37.5em,
+                   images/herolarge.jpg 37.6em">
             </figure>
             <section id="weather-data">
                 <h3 id="summary">Weather Summary</h3>
@@ -87,7 +90,7 @@
                         <th>Day 3</th>
                         <th>Day 4</th>
                         <th>Day 5</th>
-                        
+
                     </tr>
                 </thead>
                 <tbody>
@@ -104,23 +107,25 @@
 
         <article>
             <h3>Fun Facts: Did you Know?</h3>
-            <img id="article-img" src="images/napOriginal.jpg" alt="Dynamite"
-            srcset="
+            <img id="article-img" src="images/napOriginal.jpg" alt="Dynamite" srcset="
                 images/napSmall/png 37.5em,
                 images/napLarger/jpg 37.6em">
             <p class="town-article">
-                Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small farming community. With the small quiet area of Preston, Idaho, what it is known for is this is the town where they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the school where these shots were taken. We encourage you to go take a look!
+                Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small farming
+                community. With the small quiet area of Preston, Idaho, what it is known for is this is the town where
+                they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the school
+                where these shots were taken. We encourage you to go take a look!
             </p>
-            </article>
+        </article>
 
     </main>
-    
+
     <footer>
         <aside>
             <span>
-            Location: Idaho
-            Phone Number: 1 234 567 8910
-            Email:emailmeplease@email.com
+                Location: Idaho
+                Phone Number: 1 234 567 8910
+                Email:emailmeplease@email.com
             </span>
         </aside>
         <p class="footer-bar"> &copy;2019 Lets Play Weather | Local Forecast | <span id='currentdate'></span>
@@ -128,9 +133,9 @@
         </p>
     </footer>
 
-    <script src="scripts/hamburger.js" ></script>
-    <script src="scripts/currentdate.js" ></script>
-    
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
 
 </body>
 
