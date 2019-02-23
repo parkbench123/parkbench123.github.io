@@ -16,7 +16,6 @@
 
     }
 
-    nav ul li {}
 
     nav ul li a {
         border: none;
@@ -36,9 +35,7 @@
         margin: auto;
     }
 
-    h3 {}
 
-    div.current {}
 
     section.weather-summary figure img {
         width: 100px;
@@ -52,7 +49,6 @@
     .city_news {
         display: flex;
     }
-    article {}
     .story h3 {
         text-align: center;
     }
@@ -67,5 +63,4 @@
         grid-template-columns: auto auto;
     }
 
-    footer {}
 }
