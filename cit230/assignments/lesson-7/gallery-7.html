@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Franklin</title>
+    <meta name="author" content="Erik Rybalkin">
+    <meta name="description" content="The up to date weather in Franklin">
+    <!-- external style references in the proper cascading order -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-5.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium-5.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large-5.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- favicon -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    <!-- another font -->
+    <link rel="stylesheet" href="styles/weather-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="images/logoOrig.png" alt="The site logo" srcset="images/logo-assets/logo1.png 1x,
+        images/logo-assets/logo2.png 2x,
+        images/logo-assets/logo3.png 3x">Local Forecast</h1>
+        <div class="subheading">Precise and Yours</div>
+        <div id="hamburger">
+            <button onclick="toggleNavMenu()">&#9776;</button>
+        </div>
+        <!-- site navigation use placeholder references -->
+        <nav>
+            <ul id="nav" class="nav navHamb">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="franklin-7.html">Franklin</a>
+                </li>
+                <li>
+                    <a href="#">Greenville</a>
+                </li>
+                <li>
+                    <a href="#">Springfield</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li class="active">
+                    <a href="gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <h2>Our gallery</h2>
+            <div class="containerGallery">
+                <div class="childGallery">
+                    <img src="images/gallery/weather1.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/gallery/weather2.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/gallery/weather3.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/gallery/weather4.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/gallery/weather5.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/gallery/weather6.jpg" alt="gallery image">
+                    <p class="figcaption">Bacon ipsum dolor amet pork meatball
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <aside>
+            <span>
+            Odessa, Ukraine
+            +1234567890
+            email@email.com</span>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Local Forecast | <span id="currentdate"></span></p>
+    </footer>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/hamburger.js"></script>
+</body>
+</html>

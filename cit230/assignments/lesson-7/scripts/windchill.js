@@ -7,4 +7,4 @@ var windChill = 35.74 + 0.6215 *
 
 document.getElementById("temp").innerHTML = temp +'&deg;';
 document.getElementById("windSpeed").innerHTML = windSpeed +'mph';
-document.getElementById("windChill").innerHTML = windChill +'&deg;';
+document.getElementById("windChill").innerHTML = windChill.toFixed(0) +'&deg;';
