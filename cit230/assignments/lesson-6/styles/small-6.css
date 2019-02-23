@@ -60,8 +60,8 @@ header .subheading {
 }
 
 #hamburger {
-    float: left;
-    margin-left: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 button {

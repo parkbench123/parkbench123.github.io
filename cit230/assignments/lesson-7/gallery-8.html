@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston</title>
+    <meta name="description" content="The up to date weather in Franklin">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small-7.css" rel="stylesheet">
+    <link href="styles/large-7.css" rel="stylesheet">
+    <link href="styles/medium-7.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/logoOriginal.png" width="75" height="75" alt="The site logo" sizes="(min-width: 1420px) 1420px, 100vw"
+                srcset="images/logoCompSm.png 400w,
+                        images/logoCompSm.png 401w">
+        </figure>
+        <h1>
+            Local Forecast
+        </h1>
+        <div class="subheading">Lets Get You Out in the weather</div>
+        <div id="hamburger">
+            <button onclick="toggleNavMenu()">&#9776;</button>
+        </div>
+
+        <nav>
+            <ul id="nav" class="nav navHamb">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="preston-7.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <li class="active">
+                    <a href="gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <h2>Gallery of Weather</h2>
+            <div class="containerGallery">
+                <div class="childGallery">
+                    <img src="images/huricaneopt.png" alt="gallery image">
+                    <p class="figcaption">Hurricane and the Real Nature
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/lightStrikeopt.png" alt="gallery image">
+                    <p class="figcaption">Lightning Strike
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/rainingopt.png" alt="gallery image">
+                    <p class="figcaption">Raining Like No Other
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/snowingopt.png" alt="gallery image">
+                    <p class="figcaption">Do you want to build a Snowman?
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/sunnyopt.png" alt="gallery image">
+                    <p class="figcaption">Another Beautiful Day
+                    </p>
+                </div>
+                <div class="childGallery">
+                    <img src="images/windyopt.png" alt="gallery image">
+                    <p class="figcaption">Hold onto your Hats Boys and Girls
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+            <aside>
+                <span>
+                    Location: Idaho
+                    Phone Number: 1 234 567 8910
+                    Email:emailmeplease@email.com
+                </span>
+            </aside>
+            <p class="footer-bar"> &copy;2019 Lets Play Weather | Local Forecast | <span id='currentdate'></span>
+    
+            </p>
+        </footer>
+    
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+</body>
+</html>

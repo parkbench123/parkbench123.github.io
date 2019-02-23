@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston</title>
+    <meta name="description" content="The up to date weather in Franklin">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small-7.css" rel="stylesheet">
+    <link href="styles/large-.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/logoOriginal.png" width="75" height="75" alt="The site logo" sizes="(min-width: 1420px) 1420px, 100vw"
+                srcset="images/logoCompSm.png 400w,
+                        images/logoCompSm.png 401w">
+        </figure>
+        <h1>
+            Local Forecast
+        </h1>
+        <div class="subheading">Lets Get You Out in the weather</div>
+        <div id="hamburger">
+            <button onclick="toggleNavMenu()">&#9776;</button>
+        </div>
+
+        <nav>
+            <ul id="nav" class="nav navHamb">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                <li class="active">
+                    <a href="preston-6.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="cityWeather">
+            <h2>Preston</h2>
+            <figure>
+                <img src="images/heroOriginal.jpeg" alt="Photo of Preston, ID" sizes="(min-width: 1420px) 1420px, 100vw"
+                srcset="
+                   images/herosmall.png 400w,
+                   images/herolarge.jpg 401w">
+            </figure>
+            <section id="weather-data">
+                <h3 id="summary">Weather Summary</h3>
+
+// <span>Curret Tmp</span><span id="temp" class="temp"></span>
+// <span>Curret Wind Speed</span><span id="windSpeed" class="temp"></span>
+// <span>Curret Wind Chill</span><span id="windChill" class="temp"></span>//
+
+
+                <div class="current">
+                    <div>
+                        <i class="wi wi-day-sunny"></i>
+                    </div>
+                </div>
+                <div class="highlow">
+                    <p>High: 40&#8457;</p>
+                    <p>Low: 20&#8457;</p>
+                </div>
+
+                <div class="conditions">
+                    <p>Wind Speed: 15 MPH</p>
+                    
+                </div>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>35&#8457;</td>
+                        <td>22&#8457;</td>
+                        <td>26&#8457;</td>
+                        <td>33&#8457;</td>
+                        <td>18&#8457;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Fun Facts: Did you Know?</h3>
+            <img id="article-img" src="images/napOriginal.jpg" alt="Dynamite" sizes="(min-width: 1420px) 1420px, 100vw"
+            srcset="
+                images/napSmall.png 400w,
+                images/napLarge.jpg 401w">
+            <p class="town-article">
+                Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small farming
+                community. With the small quiet area of Preston, Idaho, what it is known for is this is the town where
+                they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the school
+                where these shots were taken. We encourage you to go take a look!
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <aside>
+            <span>
+                Location: Idaho
+                Phone Number: 1 234 567 8910
+                Email:emailmeplease@email.com
+            </span>
+        </aside>
+        <p class="footer-bar"> &copy;2019 Lets Play Weather | Local Forecast | <span id='currentdate'></span>
+
+        </p>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windChill.js"></script>
+
+
+</body>
+
+</html>
