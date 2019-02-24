@@ -19,7 +19,7 @@
 
     nav ul li a {
         border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        border-right: 2px solid rgba(0, 0, 0, 0.3);
         padding: .8rem 1rem;
     }
 
@@ -35,14 +35,7 @@
         margin: auto;
     }
 
-
-
-    section.weather-summary figure img {
-        width: 100px;
-    }
-
     section.forecast {
-
         display: block;
     }
 
@@ -54,9 +47,7 @@
     }
 
     .news_pic img {
-
         width: 50vw;
-
     }
 
     .gallery_grid {
