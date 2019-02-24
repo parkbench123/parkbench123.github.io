@@ -44,13 +44,13 @@
             </div>
             <div class="weather">
                 <picture class="weather_pic">
-                    <img src="images/heroOriginal.jpg" alt="Photo of Preston" 
-                    srcset=" images/herosmall.jpg 400w,
+                    <img src="images/heroOriginal.jpg" alt="Photo of Preston" sizes="(min-width: 1420px) 1420px, 100vw"
+                        srcset=" images/herosmall.jpg 400w,
                             images/herolrg.jpg 600w">
                 </picture>
                 <section class="weather-summary">
                     <h3>Weather Summary</h3>
-                   
+
                     <div class="highlow">
                         <div class="high">High: 60 &deg;F</div>
                         <div class="windchill"><span id="chilltemp"></span></div>
@@ -70,7 +70,7 @@
                             <th>Day 2</th>
                             <th>Day 3</th>
                             <th>Day 4</th>
-                            <th>Day 5</th>                            
+                            <th>Day 5</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -80,7 +80,7 @@
                             <td>43 &deg;F</td>
                             <td>48 &deg;F</td>
                             <td>60 &deg;F</td>
-                            
+
                         </tr>
                     </tbody>
                 </table>
@@ -91,18 +91,21 @@
                 <div class="story">
                     <h3>Fun Facts: Did you Know?</h3>
                     <p class="city-article">
-                            Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small farming
-                            community. With the small quiet area of Preston, Idaho, what it is known for is this is the town where
-                            they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the school
-                            where these shots were taken. We encourage you to go take a look!
+                        Many do not know about the small town of Preston, Idaho. It is relatively quiet and a small
+                        farming
+                        community. With the small quiet area of Preston, Idaho, what it is known for is this is the
+                        town where
+                        they filmed the movie "Napoleon Dynamite". You can see many of the actual buildings and the
+                        school
+                        where these shots were taken. We encourage you to go take a look!
                     </p>
                 </div>
             </article>
             <picture class="news_pic">
-                <img src="images/napolorginal.jpg" alt="Dynamite" 
+                <img src="images/napolorginal.jpg" alt="Dynamite" sizes="(min-width: 1420px) 1420px, 100vw" 
                 srcset="
-                images/napol400.png 400W,
-                images/nap01800.jpg 800W">
+                images/napolsm.png 400W,
+                images/nap01rg.jpg 800W">
             </picture>
         </div>
     </main>
@@ -111,17 +114,18 @@
         <div class="contact">
             Contact information: <br> Phone: 111.333.4444
             <br> Rexburg- Idaho <br> Google Map
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12582.532454972374!2d-111.87879328081654!3d42.08994856300246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e1!3m2!1sen!2sus!4v1550974126048" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12582.532454972374!2d-111.87879328081654!3d42.08994856300246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e1!3m2!1sen!2sus!4v1550974126048"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
         </div>
         <div class="footer-bar">&copy;2019 |Lets Play Weather | Local Forecast | <span id="datestring"></span>
         </div>
     </footer>
 
-</body>
+
 <script src="scripts/currentdate.js"></script>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/windchill.js"></script>
-
+</body>
 </html>
