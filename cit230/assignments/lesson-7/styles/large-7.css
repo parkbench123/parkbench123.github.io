@@ -159,6 +159,7 @@
         
         section.weather-summary {
             text-align: center;
+            border: 1px solid black;
         }
         
         .current {
@@ -194,7 +195,6 @@
             margin-left: .5rem;
         }
         .windchill{
-            border: 1px solid black;
             padding:.25rem;
             position:relative;
             top: -.25rem;

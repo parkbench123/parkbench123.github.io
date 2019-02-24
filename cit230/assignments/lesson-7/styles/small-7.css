@@ -123,6 +123,7 @@ figcaption {
 
 section.weather-summary {
     text-align: center;
+    border: 2px;
 }
 
 .current {
@@ -158,7 +159,6 @@ div.highlow {
     margin-left: .5rem;
 }
 .windchill{
-    border: 1px solid black;
     padding:.25rem;
     position:relative;
     top: -.25rem;
@@ -217,9 +217,15 @@ main article p {
 footer {
 
     font-family: Montserrat;
+    font-size: 20px;
     background-color: cadetblue;
     padding: .5em;
     text-align: center;
     width: 100%;
     
 }
+
+.google{
+    display: flex;
+}
+
