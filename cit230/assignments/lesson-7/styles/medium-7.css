@@ -13,9 +13,16 @@
     nav ul.hide {
         display: flex;
         justify-content: center;
-
     }
 
+    nav ul li {
+        float: left;
+        list-style: none;
+        text-align: center;
+        width: 20%;
+        width: calc(100%/6);
+        box-sizing: border-box;
+    }
 
     nav ul li a {
         border: none;

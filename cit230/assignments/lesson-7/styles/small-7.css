@@ -11,7 +11,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 1738px;
+    max-width: 400px;
 }
 
 header {
@@ -225,7 +225,4 @@ footer {
     
 }
 
-.google{
-    display: flex;
-}
 
