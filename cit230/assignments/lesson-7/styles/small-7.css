@@ -11,7 +11,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 37.5em;
+    max-width: 1738px;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 
 header img {
     margin: 0 auto;
-    opacity: 0.4;
+    opacity: .5 ;
     position: relative;
     top: 14px;
     right: 7px;
@@ -220,4 +220,6 @@ footer {
     background-color: cadetblue;
     padding: .5em;
     text-align: center;
+    width: 100%;
+    
 }
