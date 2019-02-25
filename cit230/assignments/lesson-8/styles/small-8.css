@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 400px;
+}
+
+header {
+    background: lightslategray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color:whitesmoke;
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    margin: 0 auto;
+    opacity: .5 ;
+    position: relative;
+    top: 14px;
+    right: 7px;
+}
+
+.logo {
+    width: 1%;
+    height: 1%;
+}
+
+.heading {
+    width: 100%;
+}
+
+header h1 {
+    font-size: 4.0em;
+    text-shadow: 2px 2px 2px #444;
+}
+
+header .subheading {
+    font-size: 2.0em;
+    text-align: center;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #eee;
+
+}
+
+
+nav {
+    background-color:cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li a {
+    display: flex;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #eee;
+}
+
+nav ul li.active a {
+    background-color: lightblue;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+main h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+main {
+    background-color: lightgrey;
+}
+
+figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top:.5rem;
+}
+
+section.weather-summary {
+    text-align: center;
+    border: 2px;
+}
+
+.current {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:35px;
+}
+
+.condition {
+    width: 50%;
+    text-align: right;
+}
+
+section.weather-summary figure {
+    width: 50%;
+    text-align: left
+}
+
+div.highlow {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.high,
+.highchill {
+    margin-right: .5rem;
+}
+
+.low,
+.lowchill {
+    margin-left: .5rem;
+}
+.windchill{
+    padding:.25rem;
+    position:relative;
+    top: -.25rem;
+}
+
+
+section.forecast {
+    display: none;
+    text-align: center;
+}
+
+section.forecast table,
+th,
+td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+article h3 {
+    position: relative;
+    margin-left: 1rem;
+
+}
+
+main article p {
+    text-align: justify;
+}
+
+.news_pic {
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.gallery_grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: auto;
+    padding: 2rem;
+}
+
+.gallery_item {
+    min-width: 100%;
+    padding: 2em;
+
+}
+
+.gallery_item img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem 1rem black;
+}
+
+footer {
+
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: cadetblue;
+    padding: .5em;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
