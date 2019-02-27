@@ -1,11 +1,13 @@
 table, tr, td, th {
-    border: .02px solid black;
+    border: .02px solid gray;
+    border-spacing: 0.09px;
     font-family: 'Ubuntu', sans-serif;
     font-display: center;
 }
 
 td {
     text-align: center;
+    padding: 8px
 }
 
 thead{
