@@ -1,0 +1,27 @@
+table, tr, td, th {
+    border: 1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+td {
+    text-align: center;
+}
+
+thead{
+    background-color: #7fb9c2; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tbody>tr:nth-child(even){
+    background:#e7f0ed;
+}
+
+tbody>tr:nth-child(odd){
+    background:#e7ffed ;
+}
+
+tfoot{
+    background-color: #7fb9c2;
+}
+
+
