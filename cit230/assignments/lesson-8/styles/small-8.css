@@ -229,3 +229,8 @@ label{
     display: inline-block;
     min-width: 100px;
 }
+
+input[type=button] { color: blue; }
+input[type=button]:hover { background-color: blue; color:red; }
+input:invalid { background-color: lightblue; text-emphasis-color:red;}
+input:valid   {	background-color: whitesmoke;  color: #000;}
