@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Storm Center</title>
+    <meta name="description" content="Storm Center" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small-8.css" />
+    <link rel="stylesheet" href="styles/medium-8.css" />
+    <link rel="stylesheet" href="styles/large-8.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logoCompSm.png" alt="logo" />
+        </div>
+        <div class="heading">
+            <h1>Local Forecast</h1>
+            <p class="subheading">Lets Get You Out in the weather</p>
+        </div>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="thanks.html" method="get">
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-z\s]{5,}" required />
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="name" name="email" placeholder="user@domain.com" />
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="(###)-###-####" required />
+            </div>
+            <div>
+                <label for="zipCode">Zip Code: </label>
+                <input type="number" id="zipCode" name="zipCode" required />
+            </div>
+            <div>
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" id="stormDate" name="stormDate" />
+            </div>
+            <div>
+                <label for="stormType">Storm Type:</label>
+                    <input type="text" id="stormType" name="stormType" list="storm" />
+                    <datalist id="storm">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                
+            </div>
+            <div>
+                    <label for="rating">Rating (1 to 10):</label>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span><br>
+            </div>
+            <div>
+                <label>
+                    Storm Region:</label>
+                    <select name="region">
+                        <option value="select" disabled selected>Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+            </div>
+            <div>
+                <label> User-In Danger Level:</label>
+                <br /><label><input type="radio" name="dangerLevel" value="yes" /><span class="ymn">Yes</span></label>
+                <br /><label><input type="radio" name="dangerLevel" value="maybe" /><span class="ymn">Maybe</span></label>
+                <br /><input type="radio" name="dangerLevel" value="no" /><span class="ymn">No</span>
+            </div>
+            <div>
+                <div class="section">
+                    Additional Information:</div>
+                <div class="subsection">
+                    <label>
+                        Comments:</label>
+                        <input type="text" name="additionalInfo"/>
+
+                    
+
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contact">
+            Contact information: <br />
+            Phone: 111.333.4444 <br />
+            Rexburg- Idaho <br />
+            Google Map
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12582.532454972374!2d-111.87879328081654!3d42.08994856300246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e1!3m2!1sen!2sus!4v1550974126048"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="footer-bar">
+            &copy;2019 |Lets Play Weather | Local Forecast |
+            <span id="datestring"></span>
+        </div>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/rating.js"></script>
+</body>
+
+</html>
