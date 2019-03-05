@@ -143,6 +143,10 @@ section.weather-summary figure {
     text-align: left
 }
 
+.weather_pic img{
+    max-width: 90%;
+}
+
 div.highlow {
     display: flex;
     align-content: center;
