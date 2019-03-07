@@ -59,6 +59,7 @@
 
     .gallery_grid {
         grid-template-columns: auto auto;
+        
     }
 
 }
