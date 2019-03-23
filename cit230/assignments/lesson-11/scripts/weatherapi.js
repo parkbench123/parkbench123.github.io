@@ -58,3 +58,4 @@ forecastRequest.onload= function(){
     forecastData.list[4].weather[0].icon +
      '.png');
 }
+
