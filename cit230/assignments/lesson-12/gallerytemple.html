@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery Page</title>
+    <meta name="description" content="Gallery Page" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small-11.css" />
+    <link rel="stylesheet" href="styles/medium-11.css" />
+    <link rel="stylesheet" href="styles/large-11.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logoimages.png" alt="logo" />
+      </div>
+      <div class="heading">
+        <h1>Temple Inn & Suites</h1>
+        <p class="subheading">Making the Right Choice to Sleeping a Better Night</p>
+      </div>
+    </header>
+
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="homepagetemple.html">Home</a></li>
+        <li><a href="templespage.html">Temples</a></li>
+        <li><a href="reservationpage.html">Reservation</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contactinfo.html">Contact Page</a></li>
+        <li  class="active"><a href="gallerytemple.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery_grid">
+            <div class="gallery_item">
+                <figure>
+                    <img src="images/rexburg_idaho_templeoriginal.jpg" alt="Rexburg"
+                </a>
+                          <figcaption> Rexburg</figcaption>
+                </figure>
+            </div>
+            <div class="gallery_item">
+                <figure>  <img src="images/boston_temple_ldsoriginal.jpg" alt="Boston"
+                    </a>
+                    <figcaption>Boston</figcaption>
+                </figure>
+            </div>
+            <div class="gallery_item">
+                    <figure>  <img src="images/buenos_aires_argentina_templeorginial.jpg" alt="Argentina"
+                        </a>
+                        <figcaption>Argentina</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery_item">
+                        <figure>  <img src="images/payson_utah_lds_templeoriginal.jpg" alt="Utah"
+                            </a>
+                            <figcaption>Payson</figcaption>
+                        </figure>
+                    </div>
+                    <div class="gallery_item">
+                            <figure>  <img src="images/manhattan_temple_ldsoriginal.jpg" alt="New York"
+                                </a>
+                                <figcaption>New York</figcaption>
+                            </figure>
+                        </div>
+                        <div class="gallery_item">
+                                <figure>  <img src="images/st_george_temple_ldsoriginal.jpg" alt="St. George"
+                                    </a>
+                                    <figcaption>St. George</figcaption>
+                                </figure>
+                            </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="contact">
+        Contact information: <br />
+        Address: 4800 Montgomery Ln #300<br />
+        Bethesda, MD 20814 <br />
+
+
+      <div class="footer-bar">
+        &copy;2019 | Temple Inn & Suites | HomePage |
+        <span id="datestring"></span>
+      </div>
+    </footer>
+    
+    </body>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    
+    </html>

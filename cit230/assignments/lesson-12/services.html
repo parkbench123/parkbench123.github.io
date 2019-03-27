@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services</title>
+    <meta name="description" content="Services" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small-11.css" />
+    <link rel="stylesheet" href="styles/medium-11.css" />
+    <link rel="stylesheet" href="styles/large-11.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logoimages.png" alt="logo" />
+      </div>
+      <div class="heading">
+        <h1>Temple Inn & Suites</h1>
+        <p class="subheading">Making the Right Choice to Sleeping a Better Night</p>
+      </div>
+    </header>
+
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="homepagetemple.html">Home</a></li>
+        <li><a href="templespage.html">Temples</a></li>
+        <li><a href="reservationpage.html">Reservation</a></li>
+        <li class="active"><a href="services.html">Services</a></li>
+        <li><a href="contactinfo.html">Contact Page</a></li>
+        <li><a href="gallerytemple.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <div class="city_weather">
+            <div class="city_name">
+                <h2>Services</h2>
+            </div>
+            <div class="weather">
+                <picture class="weather_pic">
+                    <img src="images/fishhavenmain.jpg" alt="Photo of Preston" srcset=" images/fishhavenmain400.jpg 400w,
+                    images/fishhavenmain800.jpg 600w">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Current Temp.</th>
+                                <th>Current Weather</th>
+                                <th>Current Humidity</th>
+                                <th>Current Wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="current-temp"></span>&deg;</td>
+                                <td><img id="current-icon" alt="weather icon"></td>
+                                <td><span id="current-humidity"></span>&deg;</td>
+                                <td><span id="current-wind"></span> MPH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id="day1"></span>&deg;</td>
+                        <td><span id="day2"></span>&deg;</td>
+                        <td><span id="day3"></span>&deg;</td>
+                        <td><span id="day4"></span>&deg;</td>
+                        <td><span id="day5"></span>&deg;</td>
+
+                    </tr>
+                    <tr>
+                        <td><img id="current-iconday1" alt="Forecast Icon Day1"></td>
+                        <td><img id="current-iconday2" alt="Forecast Icon Day2"></td>
+                        <td><img id="current-iconday3" alt="Forecast Icon Day3"></td>
+                        <td><img id="current-iconday4" alt="Forecast Icon Day4"></td>
+                        <td><img id="current-iconday5" alt="Forecast Icon Day5"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>
+        <div class="city_news">
+            <article>
+                <div class="story">
+                    <h3>Fun Facts: Did you Know?</h3>
+                    <p class="city-article">
+                      Fish Haven is actually a small hidden gem of Idaho. It is right of the lake of Bear Lake and most tourist are going to the Utah side of Bear lake, so if you are looking for an awesome opprotunity to relax and be able to enjoy the evening and the time on the Lake. Fish Haven might be the better location to go check out to have some open space to roam and run!
+                    </p>
+                </div>
+            </article>
+            <picture class="news_pic">
+                <img src="images/fishhavenfact.jpg" alt="Fish Haven Fact" sizes="(min-width: 1420px) 1420px, 100vw" srcset="
+                images/fishhavenfact400.jpg 400W,
+                images/fishhavenfact800.jpg 800W">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact">
+            Contact information: <br> Phone: 111.333.4444
+            <br> Rexburg- Idaho <br> Google Map
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11143.0156565593!2d-111.40486806433549!3d42.03803991735513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e1!3m2!1sen!2sus!4v1553278257889"
+             width="50%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        <div class="footer-bar">&copy;2019 |Lets Play Weather | Local Forecast | <span id="datestring"></span>
+        </div>
+    </footer>
+
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/fishhavenapi.js"></script>
+</body>
+
+</html>
