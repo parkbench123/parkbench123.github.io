@@ -16,11 +16,11 @@ footer {
 }
 
 header {
-    background: lightslategray;
+    background:lightskyblue;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    color:whitesmoke;
+    color:slategray;
     padding: .5em;
     display: flex;
     flex-direction: row;
@@ -58,13 +58,13 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #eee;
+    color: mediumslateblue;
 
 }
 
 
 nav {
-    background-color:cadetblue;
+    background-color:steelblue;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     overflow: hidden;
@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: lightblue;
+    background-color: slategrey;
     color: #fff;
 }
 
@@ -222,8 +222,9 @@ main article p {
 footer {
 
     font-family: Montserrat;
+    color: whitesmoke;
     font-size: 20px;
-    background-color: cadetblue;
+    background-color: steelblue;
     padding: .5em;
     text-align: center;
     width: 100%;

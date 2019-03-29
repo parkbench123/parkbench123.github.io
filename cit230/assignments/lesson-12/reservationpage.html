@@ -4,36 +4,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Storm Center</title>
-    <meta name="description" content="Storm Center" />
+    <title>Reservation</title>
+    <meta name="description" content="Reservation" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/small-11.css" />
-    <link rel="stylesheet" href="styles/medium-11.css" />
-    <link rel="stylesheet" href="styles/large-11.css" />
+    <link rel="stylesheet" href="styles/smtemple..css" />
+    <link rel="stylesheet" href="styles/medtemple.css" />
+    <link rel="stylesheet" href="styles/largetemple.css" />
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="images/logoCompSm.png" alt="logo" />
-        </div>
-        <div class="heading">
-            <h1>Lets Play Weather</h1>
-            <p class="subheading">Lets Get You Out in the weather</p>
-        </div>
+      <div class="logo">
+        <img src="images/logoimages.png" alt="logo" />
+      </div>
+      <div class="heading">
+        <h1>Temple Inn & Suites</h1>
+        <p class="subheading">Making the Right Choice to Sleeping a Better Night</p>
+      </div>
     </header>
 
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="homepage-11.html">Home</a></li>
-            <li><a href="preston-11.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery-11.html">Gallery</a></li>
-        </ul>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="homepagetemple.html">Home</a></li>
+        <li><a href="templespage.html">Temples</a></li>
+        <li class="active"><a href="reservationpage.html">Reservation</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contactinfo.html">Contact Page</a></li>
+        <li><a href="gallerytemple.html">Gallery</a></li>
+      </ul>
     </nav>
 
     <main>
@@ -51,45 +51,52 @@
                 <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="(###)-###-####" required />
             </div>
             <div>
-                <label for="zipCode">Zip Code: </label>
-                <input type="number" id="zipCode" name="zipCode" required />
+                <label for="StateSelect">Select State:</label>
+                    <input type="text" id="StateType" name="StateType" list="State" required/>
+                    <datalist id="State">
+                        <option value="MA"></option>
+                        <option value="UT"></option>
+                        <option value="NY"></option>
+                        <option value="ID"></option>
+                        <option value="Other:"></option>
+                    </datalist>
+                </div>
+            <div>
+                <label for="ReservationDate">Reservation Date: </label>
+                <input type="date" id="ReservationDate" name="ReservationDate" />
             </div>
             <div>
-                <label for="stormDate">Storm Date: </label>
-                <input type="date" id="stormDate" name="stormDate" />
-            </div>
-            <div>
-                <label for="stormType">Storm Type:</label>
-                    <input type="text" id="stormType" name="stormType" list="storm" />
-                    <datalist id="storm">
-                        <option value="Flash Flood"></option>
-                        <option value="Hail"></option>
-                        <option value="Hurricane"></option>
-                        <option value="Thunderstorm"></option>
-                        <option value="Tornado"></option>
+                <label for="TempleType">Select Temple:</label>
+                    <input type="text" id="TempleType" name="TempleType" list="temple" />
+                    <datalist id="temple">
+                        <option value="Payson, UT"></option>
+                        <option value="Boston, MA"></option>
+                        <option value="Rexburg, ID"></option>
+                        <option value="St. George, UT"></option>
+                        <option value="Manhattan, NY"></option>
                     </datalist>
                 
             </div>
             <div>
-                    <label for="rating">Rating (1 to 10):</label>
+                    <label for="rating">Number of Guest (1 to 10):</label>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span><br>
             </div>
             <div>
                 <label>
-                    Storm Region:</label>
-                    <select name="region">
-                        <option value="select" disabled selected>Select Region</option>
-                        <option value="Preston">Preston</option>
-                        <option value="Soda Springs">Soda Springs</option>
-                        <option value="Fish Haven">Fish Haven</option>
+                    Room Selection:</label>
+                    <select name="Room Choice">
+                        <option value="select" disabled selected>Select Room</option>
+                        <option value="Queen With Bunkbed">Queen With BunkBed</option>
+                        <option value="Two Full Size">Two Full Size</option>
+                        <option value="Wedding Suite">Wedding Suite</option>
                     </select>
             </div>
             <div>
-                <label> User-In Danger Level:</label>
-                <br /><label><input type="radio" name="dangerLevel" value="yes" /><span class="ymn">Yes</span></label>
-                <br /><label><input type="radio" name="dangerLevel" value="maybe" /><span class="ymn">Maybe</span></label>
-                <br /><input type="radio" name="dangerLevel" value="no" /><span class="ymn">No</span>
+                <label> Special Accommodations:</label>
+                <br /><label><input type="radio" name="UrgencyLevel" value="yes" /><span class="ymn">Yes</span></label>
+                <br /><label><input type="radio" name="UrgencyLevel" value="maybe" /><span class="ymn">Maybe</span></label>
+                <br /><input type="radio" name="UrgencyLevel" value="no" /><span class="ymn">No</span>
             </div>
             <div>
                 <div class="section">
