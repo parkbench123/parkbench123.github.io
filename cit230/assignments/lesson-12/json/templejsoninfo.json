@@ -1,7 +1,7 @@
 {
     "temples": [
         {
-            "name": "Rexburg",
+            "name": "Rexburg, Idaho",
             "motto": "Light Set Upon a Hill!",
             "yearFounded": 2008,
             "Telephone": "208-656-0880",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "name": "Payson",
+            "name": "Payson, Utah",
             "motto": "Beauty to Open a Valley!",
             "yearFounded": 2015,
             "Telephone": "801-754-4949",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "name": "Buenos Aires",
+            "name": "Buenos Aires, Argentina",
             "motto": "Via Con Dios!",
             "yearFounded": 1986,
             "Telephone": "(54)11-4693-9700",
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "name": "Manhattan",
+            "name": "Manhattan, New York",
             "motto": "Peace Amongst the Noise!",
             "yearFounded": 2004,
             "Telephone": "917-441-8220",

@@ -17,7 +17,7 @@
     }
 
     .gallery_grid{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .gallery_item{
         border-radius: 1rem;
