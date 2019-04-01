@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'https://parkbench123.github.io/cit230/assignments/lesson-12/json/templejsoninfo.json';
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
