@@ -13,8 +13,8 @@ request.onload = function() {
 function showData(jsonObj) {
     var check = 1;
     var temple = jsonObj['temples'];
-    for (var i = 0; i < town.length; i++) {
-        if (town[i].name == "Rexburg, Idaho" || town[i].name == "Payson, Utah" ||town[i].name == "Buenos Aires, Argentina" ||town[i].name == "Manhattan, NY")
+    for (var i = 0; i < temple.length; i++) {
+        if (temple[i].name == "Rexburg" || temple[i].name == "Payson" ||temple[i].name == "Buenos Aires" ||temple[i].name == "Manhattan")
         {
         var myArticle = document.createElement('article');
             myArticle.className = "templeData";
@@ -24,11 +24,11 @@ function showData(jsonObj) {
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
 
-        myH2.textContent = town[i].name;
-        myPara1.textContent = 'Motto: ' + town[i].motto;
-        myPara2.textContent = 'Year Founded: ' + town[i].yearFounded;
-        myPara3.textContent = 'Telephone: ' + town[i].currentTelephone;
-        myPara4.textContent = 'Year Announced: ' + town[i].yearAnnounced;
+        myH2.textContent = temple[i].name;
+        myPara1.textContent = 'Motto: ' + temple[i].motto;
+        myPara2.textContent = 'Year Founded: ' + temple[i].yearFounded;
+        myPara3.textContent = 'Telephone: ' + temple[i].currentTelephone;
+        myPara4.textContent = 'Year Announced: ' + temple[i].yearAnnounced;
         
         
         myArticle.appendChild(myH2);
