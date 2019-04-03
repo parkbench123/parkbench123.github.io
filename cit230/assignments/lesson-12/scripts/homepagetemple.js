@@ -27,7 +27,7 @@ function showData(jsonObj) {
         myH2.textContent = temple[i].name;
         myPara1.textContent = 'Motto: ' + temple[i].motto;
         myPara2.textContent = 'Year Founded: ' + temple[i].yearFounded;
-        myPara3.textContent = 'Telephone: ' + temple[i].currentTelephone;
+        myPara3.textContent = 'Telephone: ' + temple[i].Telephone;
         myPara4.textContent = 'Year Announced: ' + temple[i].yearAnnounced;
         
         
