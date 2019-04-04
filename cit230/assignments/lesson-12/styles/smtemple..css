@@ -149,8 +149,8 @@ section.weather-summary figure {
     text-align: left;
 }
 
-.weather_pic img{
-    max-width: 90%;
+.recept_pic img{
+    max-width: 75%;
 }
 
 div.highlow {

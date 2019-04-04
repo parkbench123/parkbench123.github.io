@@ -16,6 +16,11 @@
         box-sizing: border-box;
     }
 
+    .recept_pic img{
+        max-width: 45%;
+        float: center
+    }
+
     .gallery_grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
