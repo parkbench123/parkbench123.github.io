@@ -48,6 +48,10 @@ header h1 {
     text-shadow: 2px 2px 2px #444;
 }
 
+h3{
+    text-align: center
+}
+
 header .subheading {
     font-size: 2.0em;
     text-align: center;
@@ -127,6 +131,7 @@ section.weather-summary {
     border: 2px;
 }
 
+
 .current {
     display: flex;
     align-items: left;
@@ -141,7 +146,7 @@ section.weather-summary {
 
 section.weather-summary figure {
     width: 50%;
-    text-align: left
+    text-align: left;
 }
 
 .weather_pic img{
