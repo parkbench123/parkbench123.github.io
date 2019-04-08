@@ -5,7 +5,15 @@
             "motto": "Light Set Upon a Hill!",
             "yearFounded": 2008,
             "Telephone": "208-656-0880",
+            "Email": "Rexburg@churchofJesusChrist.com",
+            "Address": " 750 S 2nd E, Rexburg ID 83440-5404 United States",
             "yearAnnounced": 2003,
+            "Service":[
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
             "closures": [
                 "April 6, 2019",
                 "April 15, 2019 - April 29, 2019",
@@ -23,7 +31,15 @@
             "motto": "Beauty to Open a Valley!",
             "yearFounded": 2015,
             "Telephone": "801-754-4949",
+            "Email": "Payson@churchofJesusChrist.com",
+            "Address": " 1494 S 930 W, Payson UT 84651 United States",
             "yearAnnounced": 2010,
+            "Service":[
+                "No Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
             "closures": [
                 "April 1, 2019 - April 22, 2019",
                 "July 4, 2019",
@@ -41,7 +57,15 @@
             "motto": "Via Con Dios!",
             "yearFounded": 1986,
             "Telephone": "(54)11-4693-9700",
+            "Email": "Buenos Aires@churchofJesusChrist.com",
+            "Address": " Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita,Buenos Aires, Argentina,",
             "yearAnnounced": 1980,
+            "Service":[
+                "Clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
             "closures": [
                 "April 1, 2019 - April 15, 2019",
                 "May 1, 2019",
@@ -55,7 +79,15 @@
             "motto": "Peace Amongst the Noise!",
             "yearFounded": 2004,
             "Telephone": "917-441-8220",
+            "Email": "Manhattan@churchofJesusChrist.com",
+            "Address": "125 Columbus Ave, New York NY 10023 United States",
             "yearAnnounced": 2002,
+            "Service":[
+                "Clothing rental available",
+                "No cafeteria available",
+                "No Patron housing available",
+                "Distribution center nearby"
+            ],
             "closures": [
                 "April 6, 2019",
                 "July 4, 2019",
