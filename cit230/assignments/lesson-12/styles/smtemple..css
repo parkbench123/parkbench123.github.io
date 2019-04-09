@@ -132,6 +132,10 @@ section.weather-summary {
 }
 
 
+h4{
+    text-align: left;
+}
+
 .current {
     display: flex;
     align-items: left;
@@ -146,7 +150,7 @@ section.weather-summary {
 
 section.weather-summary figure {
     width: 50%;
-    text-align: left;
+    text-align: center;
 }
 
 .recept_pic img{

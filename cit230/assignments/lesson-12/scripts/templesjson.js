@@ -20,36 +20,15 @@ function showData(jsonObj) {
             myArticle.className = "templeData";
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myPara4 = document.createElement('p');
-        var myPara5 = document.createElement('p');
-        var myPara6 = document.createElement('p');
-        var myPara7 = document.createElement('p');
-        var myPara8 = document.createElement('p');
+       
 
         myH2.textContent = temple[i].name;
-        myPara1.textContent = 'Motto: ' + temple[i].motto;
-        myPara2.textContent = 'Year Founded: ' + temple[i].yearFounded;
-        myPara3.textContent = 'Telephone: ' + temple[i].Telephone;
-        myPara4.textContent = 'Year Announced: ' + temple[i].yearAnnounced;
-        myPara5.textContent = 'Services Provided: ' + temple[i].Service;
-        myPara6.textContent = 'Temple Closures: ' + temple[i].closures;
-        myPara7.textContent = 'Email: ' + temple[i].Email;
-        myPara8.textContent = 'Address: ' + temple[i].Address;
-        
-        
+        myPara1.textContent = 'Temple Closures: ' + temple[i].closures;
+              
         
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myPara4);
-        myArticle.appendChild(myPara5);
-        myArticle.appendChild(myPara6);
-        myArticle.appendChild(myPara7);
-        myArticle.appendChild(myPara8);
+        
        
         section.appendChild(myArticle);
     }

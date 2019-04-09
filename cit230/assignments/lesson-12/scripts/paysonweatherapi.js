@@ -1,12 +1,12 @@
 var apiURLstring ="https://api.openweathermap.org/data/2.5/weather?id=5779548&appid=79a71e2ee75dfba3b8815859ebb7d8f1&units=imperial"
 
-var weatherRequest = new XMLHttpRequest();
-weatherRequest.open('Get', apiURLstring, true);
-weatherRequest.responseType='json';
-weatherRequest.send();
+var weatherRequest2 = new XMLHttpRequest();
+weatherRequest2.open('Get', apiURLstring, true);
+weatherRequest2.responseType='json';
+weatherRequest2.send();
 
-weatherRequest.onload= function(){
-    var weatherData = weatherRequest.response;
+weatherRequest2.onload= function(){
+    var weatherData = weatherRequest2.response;
 
     console.log(weatherData);
 
