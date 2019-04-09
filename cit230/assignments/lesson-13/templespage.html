@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temples</title>
+    <meta name="description" content="Temples Page" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/smtemple..css" />
+    <link rel="stylesheet" href="styles/medtemple.css" />
+    <link rel="stylesheet" href="styles/largetemple.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logoimages.png" alt="logo" />
+        </div>
+        <div class="heading">
+            <h1>Temple Inn & Suites</h1>
+            <p class="subheading">Making the Right Choice to Sleeping a Better Night</p>
+        </div>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="homepagetemple.html">Home</a></li>
+            <li class="active"><a href="templespage.html">Temples</a></li>
+            <li><a href="reservationpage.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactinfo.html">Contact Page</a></li>
+            <li><a href="gallerytemple.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="gallery_grid"></section>
+        <div class="city_weather">
+            <div class="city_name">
+                <h2>Temples </h2>
+                <h3>Rexburg</h3>
+            </div>
+            <div class="weather">
+                <picture class="weather_pic">
+                    <img src="images/rexburg_idaho_templeoriginal.jpg" alt="Photo of Rexburg" srcset=" images/rexburg_idaho_templeoriginal.jpg 400w,
+                            images/rexburg_idaho_templeoriginal.jpg 600w">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Current Temp.</th>
+                                <th>Current Weather</th>
+                                <th>Current Humidity</th>
+                                <th>Current Wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="current-temp"></span>&deg;</td>
+                                <td><img id="current-icon" alt="weather icon"></td>
+                                <td><span id="current-humidity"></span>&deg;</td>
+                                <td><span id="current-wind"></span> MPH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section class="templeinfo">
+                        <h4>Address:</h4>
+                        <p> 750 S 2nd E, Rexburg ID 83440-5404 United States</p>
+                        <h4>Telephone:</h4>
+                        <p> 208-656-0880</p>
+                        <h4>Email:</h4>
+                        <p> Rexburg@churchofJesusChrist.com</p>
+                        <h4>History: </h4>
+                        <p>Year Announced: 2003 </p>
+                        <p> Year Founded: 2008</p>
+                        <p> Dedication: 10 February 2008</p>
+                        <h4>Session Scheule:</h4>
+                        <p>6:00 AM Walk-ins and Appointments</p>
+                        <p>7:30 PM Walk-ins and Appointments</p>
+                        <p>Appointments are every 45 Mins</p>
+
+                        <h4>Services:</h4>
+                        <p> Clothing rental available</p>
+                        <p> No cafeteria available</p>
+                        <p> No patron housing available</p>
+                        <p> Distribution center nearby</p>
+
+                    </section>
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <main>
+        <div class="city_weather">
+            <div class="city_name">
+                <h3>Payson</h3>
+            </div>
+            <div class="weather">
+                <picture class="weather_pic">
+                    <img src="images/payson_utah_lds_templeoriginal.jpg" alt="Photo of Payson" srcset=" images/payson_utah_lds_templeoriginal.jpg 400w,
+                                images/payson_utah_lds_templeoriginal.jpg 600w">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Current Temp.</th>
+                                <th>Current Weather</th>
+                                <th>Current Humidity</th>
+                                <th>Current Wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="current-temp1"></span>&deg;</td>
+                                <td><img id="current-icon1" alt="weather icon1"></td>
+                                <td><span id="current-humidity1"></span>&deg;</td>
+                                <td><span id="current-wind1"></span> MPH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section class="templeinfo">
+                        <h4>Address:</h4>
+                        <p> 1494 S 930 W, Payson UT 84651 United States</p>
+                        <h4>Telephone:</h4>
+                        <p> 801-754-4949</p>
+                        <h4>Email:</h4>
+                        <p> Payson@churchofJesusChrist.com</p>
+                        <h4>History: </h4>
+                        <p>Year Announced: 2010 </p>
+                        <p> Year Founded: 2015</p>
+                        <p> Dedication: 7 June 2015</p>
+                        <h4>Session Scheule:</h4>
+                        <p>7:00 AM Walk-ins and Appointments</p>
+                        <p>7:40 PM Walk-ins and Appointments</p>
+                        <p>Appointments are every 40 Mins</p>
+
+                        <h4>Services:</h4>
+                        <p> No Clothing rental available</p>
+                        <p> No cafeteria available</p>
+                        <p> No patron housing available</p>
+                        <p> Distribution center nearby</p>
+
+                    </section>
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <main>
+        <div class="city_weather">
+            <div class="city_name">
+                <h3>Argentina</h3>
+            </div>
+            <div class="weather">
+                <picture class="weather_pic">
+                    <img src="images/buenos_aires_argentina_templeorginial.jpg" alt="Photo of Argentina" srcset=" images/buenos_aires_argentina_templeorginial.jpg,
+                                    images/buenos_aires_argentina_templeorginial.jpg 600w">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Current Temp.</th>
+                                <th>Current Weather</th>
+                                <th>Current Humidity</th>
+                                <th>Current Wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="current-temp2"></span>&deg;</td>
+                                <td><img id="current-icon2" alt="weather icon2"></td>
+                                <td><span id="current-humidity2"></span>&deg;</td>
+                                <td><span id="current-wind2"></span> MPH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section class="templeinfo">
+                            <h4>Address:</h4>
+                            <p> Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita,Buenos Aires, Argentina</p>
+                            <h4>Telephone:</h4>
+                            <p> (54)11-4693-9700</p>
+                            <h4>Email:</h4>
+                            <p> BuenosAires@churchofJesusChrist.com</p>
+                            <h4>History: </h4>
+                            <p>Year Announced: 1980 </p>
+                            <p> Year Founded: 1986</p>
+                            <p> Dedication: 17 January 1986</p>
+                            <p> Rededicated: 9 September 2012</p>
+                            <h4>Session Scheule:</h4>
+                            <p>8:00 AM Walk-ins and Appointments</p>
+                            <p>8:00 PM Walk-ins and Appointments</p>
+                            <p>Appointments are every 60 Mins</p>
+    
+                            <h4>Services:</h4>
+                            <p> Clothing rental available</p>
+                            <p> No cafeteria available</p>
+                            <p> Patron housing available</p>
+                            <p> Distribution center nearby</p>
+    
+                        </section>
+                   
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <main>
+        <div class="city_weather">
+            <div class="city_name">
+                <h3>New York</h3>
+            </div>
+            <div class="weather">
+                <picture class="weather_pic">
+                    <img src="images/manhattan_temple_ldsoriginal.jpg" alt="Photo of NY" srcset=" images/manhattan_temple_ldsoriginal.jpg 400w,
+                                        images/manhattan_temple_ldsoriginal.jpg 600w">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Current Temp.</th>
+                                <th>Current Weather</th>
+                                <th>Current Humidity</th>
+                                <th>Current Wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="current-temp3"></span>&deg;</td>
+                                <td><img id="current-icon3" alt="weather icon3"></td>
+                                <td><span id="current-humidity3"></span>&deg;</td>
+                                <td><span id="current-wind3"></span> MPH</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section class="templeinfo">
+                            <h4>Address:</h4>
+                            <p> 125 Columbus Ave, New York NY 10023 United States</p>
+                            <h4>Telephone:</h4>
+                            <p> 917-441-8220</p>
+                            <h4>Email:</h4>
+                            <p> Manhattan@churchofJesusChrist.com</p>
+                            <h4>History: </h4>
+                            <p>Year Announced: 2002 </p>
+                            <p> Year Founded: 2004</p>
+                            <p> Dedication: 13 June 2004</p>
+                            <h4>Session Scheule:</h4>
+                            <p>11:00 AM Walk-ins and Appointments</p>
+                            <p>7:45 PM Walk-ins and Appointments</p>
+                            <p>Appointments are every 90 Mins</p>
+    
+                            <h4>Services:</h4>
+                            <p> Clothing rental available</p>
+                            <p> No cafeteria available</p>
+                            <p> No patron housing available</p>
+                            <p> Distribution center nearby</p>
+    
+                        </section>
+
+            </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+            <div class="contact">
+                    Contact information: <br />
+                    Address: 4800 Montgomery Ln #300<br />
+                    Bethesda, MD 20814 <br />
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46531.0943714411!2d-77.12482578971914!3d38.9845341923129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cbb76a24022d%3A0x26b279f76a2bcd0d!2sBethesda%2C+MD!5e1!3m2!1sen!2sus!4v1553709747409"
+            width="50%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        <div class="footer-bar">&copy;2019 |Temple Inn & Suites | Temples | <span id="datestring"></span>
+        </div>
+    </footer>
+
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/templesjson.js"></script>
+    <script src="scripts/rexburgweatherapi.js"></script>
+    <script src="scripts/paysonweatherapi.js"></script>
+    <script src="scripts/argentinaweatherapi.js"></script>
+    <script src="scripts/newyorkweatherapi.js"></script>
+
+
+</html>
