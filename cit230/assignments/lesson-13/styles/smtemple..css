@@ -138,7 +138,7 @@ h4{
 
 .current {
     display: flex;
-    align-items: left;
+    align-items: flex-end;
     position: relative;
     right:35px;
 }
